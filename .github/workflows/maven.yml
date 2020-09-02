@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
+        java-package: jdk
     - name: Cache Maven Dependencies
       uses: actions/cache@v1
       with:
